@@ -1,0 +1,299 @@
+@media (min-width: 1080px) and (max-width: 1600px){
+#header-img{
+  width: 200px;
+  height: 50px;
+}
+
+#nav-bar {
+  background-color: #e3e3e3;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 2vw;
+  z-index: 1;
+  width: 100%;
+  font-family: 'Anton';
+}
+
+/*unvisited link*/
+a:link{
+  color: black; 
+  text-decoration: none;
+}
+
+/*mouse over link*/
+a:hover{
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  padding: 1%;
+  font-size: 2.2vw;
+}
+
+p{
+  font-family: 'Cabin';
+  font-size: 1.4vw;
+  width:75%;
+  text-align: justify;
+  vertical-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.feathead, .price{
+  font-size: 1.8vw;
+  font-weight: bold;
+}
+
+#submit{
+  position: relative;
+  font-size: 1.4vw;
+  background-color: #ffd783;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  color: black;
+}
+
+#email{
+  font-size: 1.4vw;
+  border-radius: 4px;
+  padding: 4px 12px;
+  border: 1px solid #5a5a59;
+  color: #68635B;
+  font-family: 'Cabin';
+}
+
+
+}
+
+/*end of @media (min-width: 1080px) and (max-width: 1600px)*/
+
+@media (min-width: 558px) and (max-width: 1079px){
+
+#header-img{
+  width: 150px;
+  height: 40px;
+}
+
+#nav-bar {
+  background-color: #e3e3e3;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 2.2vw;
+  z-index: 1;
+  width: 100%;
+  font-family: 'Anton';
+}
+
+/*unvisited link*/
+a:link{
+  color: black; 
+  text-decoration: none;
+}
+
+/*mouse over link*/
+a:hover{
+  text-decoration: underline;
+  color: white;
+  text-transform: uppercase;
+  background-color: black;
+  border-radius: 5px;
+  padding: 1%;
+  font-size: 2.5vw;
+}
+
+p{
+  font-family: 'Cabin';
+  font-size: 2vw;
+  width:75%;
+  text-align: justify;
+  vertical-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.feathead, .price{
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+#submit{
+  position: relative;
+  font-size: 2vw;
+  background-color: #ffd783;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  color: black;
+}
+
+#email{
+  font-size: 2vw;
+  border-radius: 4px;
+  padding: 4px 12px;
+  border: 1px solid #5a5a59;
+  color: #68635B;
+  font-family: 'Cabin';
+}
+
+
+}
+
+/*end of @media (min-width: 558px) and (max-width: 1079px)*/
+
+@media (min-width: 300px) and (max-width: 557px){
+
+#header-img{
+  width: 100px;
+  height: 25px;
+}
+
+#nav-bar {
+  background-color: #e3e3e3;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 2.5vw;
+  z-index: 1;
+  width: 100%;
+  font-family: 'Anton';
+}
+
+/*unvisited link*/
+a:link{
+  color: black; 
+  text-decoration: none;
+}
+
+/*mouse over link*/
+a:hover{
+  text-decoration: underline;
+  color: white;
+  text-transform: uppercase;
+  background-color: black;
+  border-radius: 5px;
+  padding: 1%;
+  font-size: 2.5vw;
+}
+
+p{
+  font-family: 'Cabin';
+  font-size: 2vw;
+  width:75%;
+  text-align: justify;
+  vertical-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.feathead, .price{
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+#submit{
+  position: relative;
+  font-size: 2vw;
+  background-color: #ffd783;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  color: black;
+}
+
+#email{
+  font-size: 2vw;
+  border-radius: 4px;
+  padding: 4px 12px;
+  border: 1px solid #5a5a59;
+  color: #68635B;
+  font-family: 'Cabin';
+}
+
+
+}
+
+/*end of @media (min-width: 558px) and (max-width: 1079px)*/
+
+/*applicable for entire document for all screen sizes*/
+
+#p20{
+  width: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#p20:hover{
+  filter: opacity(75%);
+}
+
+li{
+  float: right;
+  display:inline;
+  padding: 10px 5px;
+  padding-right: 2%;
+}
+
+#form{
+  top: 1000;
+  float: center;
+}
+
+#submit:hover {
+  background-color: #ffcc62;
+  color: white;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px #c7c4bd;
+  text-transform: uppercase;
+}
+
+#video{
+  width: 75%;  /*you have to have a size or this method doesn't work*/ 
+  height: 75%; /* think about making these max-width instead - might give you some more responsiveness */
+  position: absolute; /* positions out of the flow, but according to the nearest parent */
+  top: 0; 
+  right: 0; /* confuse it i guess */
+  bottom: 0; 
+  left: 0;
+  margin: auto;
+}
+
+.row{
+  display: flex;
+  flex-flow: row wrap;
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+/*pricing style box*/
+.subclass{
+  flex: 20%;
+  justify-content: center;
+  align-items: center;
+  margin:1%;
+  border-style: dotted;
+}
+
+/*pricing style box -mouse over - prices*/
+.subclass:hover{
+  background-color: #E5E0E0;
+}
+
+
